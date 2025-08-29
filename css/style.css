@@ -2,7 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
 }
-header{
+header, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,36 +19,57 @@ nav a{
     color: black;
     font-size: 18px;
 }
+.landing-image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.landing-image img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.landing-text{
+    position: absolute;
+    bottom: 10%;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #fff;
+}
 main{
     padding: 1% 7%;
 }
-section{
+.recipe-week{
+    padding: 2% 7%;
     background-color: #dadfea;
 }
 .cards{
     display: flex;
-    justify-content: center;
-    gap: 5%;
+    justify-content: space-between;
+    gap: 4%;
 }
 .card{
-    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    height: 260px;
 }
 .card img{
     width: 100%;
-    height: 95%;
+    height: 240px;
 }
 .card-label{
-    position: absolute;
     display: flex;
-    align-items: center;
     justify-content: center;
-    bottom: 0;
-    right: 0;
+    align-items: center;
     width: 100%;
     height: 50px;
     
-    background-color:aqua;
+    background-color:#fff;
     
+}
+.where-to-eat img{
+    height: 280px;
+    border: 8px solid gray;
+
 }
