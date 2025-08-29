@@ -6,14 +6,49 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 1% 5%;
     background-color: #f1a536;
 }
 nav{
     display: flex;
     gap: 25px;
+    padding: 10px;
 }
 nav a{
     text-decoration: none;
     color: black;
+    font-size: 18px;
+}
+main{
+    padding: 1% 7%;
+}
+section{
+    background-color: #dadfea;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.card{
+    position: relative;
+    width: 30%;
+    height: 260px;
+}
+.card img{
+    width: 100%;
+    height: 95%;
+}
+.card-label{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    
+    background-color:aqua;
+    
 }
