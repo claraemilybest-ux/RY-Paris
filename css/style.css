@@ -41,15 +41,26 @@ p, nav a{
     font-size: 18px;
     line-height: 1.6;
 }
+h1{
+    text-align: center;
+}
 h2{
     font-size: 25px;
 }
-main{
+main, section{
     padding: 1% 7%;
 }
-.recipe-week{
-    padding: 2% 7%;
+section{
     background-color: #dadfea;
+}
+.instructions{
+    display: flex;
+}
+.ingredients{
+    width:80%;
+}
+.directions{
+    width: 100%;
 }
 .cards{
     display: flex;
