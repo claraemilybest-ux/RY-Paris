@@ -81,6 +81,18 @@ h4{
 .recipe-name p{
     margin: 0;
 }
+.video{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    margin: 10px;
+    min-height: 300px;
+}
+iframe{
+    width: 32em;
+    height: 18em;
+    border: none;
+}
 button{
     background-color: #a63223;
     color:#fff;
