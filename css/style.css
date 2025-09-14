@@ -47,6 +47,60 @@ h1{
 h2{
     font-size: 25px;
 }
+h3{
+    color:#575656;
+}
+h4{
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+.time h4{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.time span{
+    margin: 10px 0;
+}
+.recipe-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review{
+    color:#a63223;
+}
+.recipe-name p{
+    margin: 0;
+}
+button{
+    background-color: #a63223;
+    color:#fff;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.printer{
+    color:#575656;
+    font-size: 20px;
+    text-align: center;
+}
+ul, ol{
+    margin: 0;
+    padding: 0;
+}
+ol li{
+    margin-bottom: 20px;
+}
 main, section{
     padding: 1% 7%;
 }
@@ -55,11 +109,13 @@ section{
 }
 .instructions{
     display: flex;
+    margin: 8% 0;
 }
 .ingredients{
     width:80%;
 }
 .directions{
+    padding-left: 10%;
     width: 100%;
 }
 .cards{
